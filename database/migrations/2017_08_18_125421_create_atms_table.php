@@ -18,7 +18,7 @@ class CreateAtmsTable extends Migration
             $table->string('name');
             $table->string('description')->nullable();
             $table->integer('rate')->nullable();
-            $table->float('y');
+            $table->integer('y');
             $table->float('z');
             $table->timestamps();
         });

@@ -8,6 +8,7 @@
             height: 500px;
             width: 100%;
         }
+
         /* Optional: Makes the sample page fill the window. */
         html, body {
             height: 100px;
@@ -16,14 +17,38 @@
             padding: 0;
         }
     </style>
+
+    <div class="container-fluid">
     <div id="map"></div>
-    {{--<!-- Scripts -->--}}
+        <br><br>
+    </div>
+
+    <!-- Scripts -->
     <script>
+        var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+        var icons = {
+            parking: {
+                icon: iconBase + 'parking_lot_maps.png'
+            },
+            library: {
+                icon: iconBase + 'library_maps.png'
+            },
+            info: {
+                icon: iconBase + 'info-i_maps.png'
+            }
+        };
+
+
+        var image = '/images/atm.png'
+
+        var sites = {!! json_encode($atms->toArray()) !!};
+
         var map;
+
         function initMap() {
             map = new google.maps.Map(document.getElementById('map'), {
                 zoom: 12,
-                center: new google.maps.LatLng(33.312805,44.361488),
+                center: new google.maps.LatLng(33.312805, 44.361488),
                 mapTypeId: 'terrain'
             });
 
@@ -34,17 +59,17 @@
             document.getElementsByTagName('head')[0].appendChild(script);
         }
 
-        // Loop through the results array and place a marker for each
-        // set of coordinates.
-        window.eqfeed_callback = function(results) {
-            console.log(results);
-//            for (var i = 0; i < results.features.length; i++) {
-            var latLng = new google.maps.LatLng(33.312805,44.361488);
-            var marker = new google.maps.Marker({
-                position: latLng,
-                map: map
-            });
-//            }
+        window.eqfeed_callback = function () {
+            for (var i = 0; i < sites.length; i++) {
+                var latLng = new google.maps.LatLng(sites[i].y, sites[i].z);
+                var marker = new google.maps.Marker({
+                    position: latLng,
+                    map: map,
+                    icon: image,
+//                        icon: icons.info.icon,
+                });
+
+            }
         }
     </script>
     <script async defer
