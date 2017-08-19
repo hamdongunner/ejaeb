@@ -186,10 +186,8 @@
                     <div class="item">
                         <div class="overlay" href="#">
                             <div class="content">
-                                <a href="#" class="nino-icon"><i class="mdi mdi-facebook"></i></a>
-                                <a href="#" class="nino-icon"><i class="mdi mdi-twitter"></i></a>
-                                <a href="#" class="nino-icon"><i class="mdi mdi-pinterest"></i></a>
-                                <a href="#" class="nino-icon"><i class="mdi mdi-instagram"></i></a>
+                                <a href="https://web.facebook.com/100001853360800" class="nino-icon"><i class="mdi mdi-facebook"></i></a>
+
                             </div>
                             <img src="images/our-team/img-1.jpg" alt="">
                         </div>
@@ -206,10 +204,8 @@
                     <div class="item">
                         <div class="overlay" href="#">
                             <div class="content">
-                                <a href="#" class="nino-icon"><i class="mdi mdi-facebook"></i></a>
-                                <a href="#" class="nino-icon"><i class="mdi mdi-twitter"></i></a>
-                                <a href="#" class="nino-icon"><i class="mdi mdi-pinterest"></i></a>
-                                <a href="#" class="nino-icon"><i class="mdi mdi-instagram"></i></a>
+                                <a href="https://web.facebook.com/1478328185" class="nino-icon"><i class="mdi mdi-facebook"></i></a>
+
                             </div>
                             <img src="images/our-team/img-4.jpg" alt="">
                         </div>
@@ -226,10 +222,7 @@
                     <div class="item">
                         <div class="overlay" href="#">
                             <div class="content">
-                                <a href="#" class="nino-icon"><i class="mdi mdi-facebook"></i></a>
-                                <a href="#" class="nino-icon"><i class="mdi mdi-twitter"></i></a>
-                                <a href="#" class="nino-icon"><i class="mdi mdi-pinterest"></i></a>
-                                <a href="#" class="nino-icon"><i class="mdi mdi-instagram"></i></a>
+                                <a href="https://web.facebook.com/100001102250670" class="nino-icon"><i class="mdi mdi-facebook"></i></a>
                             </div>
                             <img src="images/our-team/img-5.jpg" alt="">
                         </div>
@@ -251,10 +244,7 @@
                     <div class="item">
                         <div class="overlay" href="#">
                             <div class="content">
-                                <a href="#" class="nino-icon"><i class="mdi mdi-facebook"></i></a>
-                                <a href="#" class="nino-icon"><i class="mdi mdi-twitter"></i></a>
-                                <a href="#" class="nino-icon"><i class="mdi mdi-pinterest"></i></a>
-                                <a href="#" class="nino-icon"><i class="mdi mdi-instagram"></i></a>
+                                <a href="https://web.facebook.com/100005415271956" class="nino-icon"><i class="mdi mdi-facebook"></i></a>
                             </div>
                             <img src="images/our-team/img-2.jpg" alt="">
                         </div>
@@ -268,10 +258,7 @@
                     <div class="item">
                         <div class="overlay" href="#">
                             <div class="content">
-                                <a href="#" class="nino-icon"><i class="mdi mdi-facebook"></i></a>
-                                <a href="#" class="nino-icon"><i class="mdi mdi-twitter"></i></a>
-                                <a href="#" class="nino-icon"><i class="mdi mdi-pinterest"></i></a>
-                                <a href="#" class="nino-icon"><i class="mdi mdi-instagram"></i></a>
+                                <a href="https://web.facebook.com/100002952285922" class="nino-icon"><i class="mdi mdi-facebook"></i></a>
                             </div>
                             <img src="images/our-team/img-3.jpg" alt="">
                         </div>

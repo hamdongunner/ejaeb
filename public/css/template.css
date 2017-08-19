@@ -701,15 +701,15 @@ section {
 #nino-ourTeam .content .nino-icon {
 	display: inline-block;
 	font-size: 25px;
-	color: #f38181;
-	background: #fce38a;
+	color: #0b7bc7;
+	background: #fffffe;
 	padding: 10px;
 	margin: 0 -1px;
 	line-height: 100%;
 }
 #nino-ourTeam .content .nino-icon:hover {
 	color: #fff;
-	background: #f38181;
+	background:  #0b7bc7;
 }
 #nino-ourTeam .info {
 	margin-top: 35px;
